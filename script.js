@@ -2,7 +2,7 @@ const countdown = document.querySelector('.countdown');
 const main = document.querySelector('.main-1');
 const image = document.querySelector('#start');
 // Set Launch date in (ms)
-const launchDate = new Date('July 24, 2018 24:00:00').getTime();
+const launchDate = new Date('December 31, 2018 24:00:00').getTime();
 
 
 // Update Every Second
@@ -42,13 +42,13 @@ const interval = setInterval(function()  {
         clearInterval(interval);
         
         //style and output
-        image.style.backgroundImage = "url(pic2.png)";
+        //image.style.backgroundImage = "url(pic2.png)";
         countdown.style.backgroundColor = 'rgba(0,0,0,0.7)';
         countdown.style.color = 'yellow';
         main.style.color = 'white';
-        main.innerHTML ="Today is your Birthday.."
+        main.innerHTML ="Here starts 2019..."
         countdown.innerHTML =`
-        <div>Happy Birthday Buddy!!!</div>
+        <div>Happy New Year!!!</div>
 `;
     }
 }, 1000);
