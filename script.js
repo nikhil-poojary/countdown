@@ -2,7 +2,7 @@ const countdown = document.querySelector('.countdown');
 const main = document.querySelector('.main-1');
 const image = document.querySelector('#start');
 // Set Launch date in (ms)
-const launchDate = new Date('December 31, 2018 24:00:00').getTime();
+const launchDate = new Date('December 31, 2019 24:00:00').getTime();
 
 
 // Update Every Second
